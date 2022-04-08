@@ -1,0 +1,336 @@
+.mine {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(14, 11, 31, 1);
+  color: #eeeeee;
+  padding-bottom: 80px;
+
+  .pd24 {
+    padding: 0 24px;
+  }
+
+  .info_main {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 80px;
+    display: flex;
+    margin-top: 20px;
+
+    &_left {
+      width: 80px;
+      height: 80px;
+      flex: 0 0 80px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &_right {
+      margin-left: 34px;
+      width: 100%;
+
+      &_top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &_item {
+          text-align: center;
+
+          .p1 {
+            font-size: 16px;
+          }
+
+          .p2 {
+            font-size: 14px;
+            margin-top: 6px;
+          }
+        }
+      }
+
+      &_bottom {
+        margin-top: 15px;
+
+        .btn {
+          width: 78px;
+          height: 28px;
+          background: #cbfb5e;
+          box-shadow: 2px 2px 3px 0px rgba(169, 169, 169, 0.3);
+          border-radius: 4px;
+          font-size: 16px;
+          font-family: AppleSystemUIFont;
+          color: #20242F;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .play_list {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 32px;
+
+    &_title {
+      font-size: 22px;
+      font-family: AppleSystemUIFont;
+      color: #EEEEEE;
+    }
+
+    &_main {
+      width: 100%;
+      margin-top: 10px;
+
+      &_li {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 24px;
+        height: 56px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        &_flex {
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            font-size: 14px;
+            font-family: AppleSystemUIFont;
+            color: #EEEEEE;
+          }
+        }
+      }
+    }
+  }
+
+  .activity_list {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+
+    &_title {
+      font-size: 22px;
+      font-family: AppleSystemUIFont;
+      color: #EEEEEE;
+      padding-left: 24px;
+      box-sizing: border-box;
+    }
+
+    &_main {
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 24px;
+      overflow-x: scroll;
+      height: 240px;
+
+      .ul {
+        display: flex;
+        margin-top: 20px;
+        padding-right: 40px;
+
+        &_li {
+          width: 88px;
+          flex: 0 0 88px;
+          margin-right: 16px;
+
+          img {
+            width: 100%;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.collection {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(14, 11, 31, 1);
+  color: #eeeeee;
+  padding-bottom: 80px;
+
+  .search {
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin-top: 16px;
+
+    &_main {
+      background: #292D39;
+      border: 1px solid #363942;
+      border-radius: 8px;
+      width: 100%;
+      height: 36px;
+      padding: 0 8px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+
+      .ipt {
+        width: 84%;
+        margin-left: 10px;
+
+        input {
+          width: 100%;
+          font-size: 16px;
+          color: #eee;
+          padding: 0;
+          height: 30px;
+          border: none;
+          line-height: 30px;
+          background-color: #292D39;
+        }
+      }
+    }
+  }
+
+  .list {
+    width: 100%;
+
+    &_search {
+      width: 100%;
+      padding: 0 24px;
+      box-sizing: border-box;
+      padding-top: 10px;
+
+      &_li {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 10px;
+      }
+
+      &_left {
+        width: 40px;
+        flex: 0 0 40px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &_right {
+        width: 100%;
+        margin-left: 16px;
+
+        .p1 {
+          font-size: 16px;
+          font-family: AppleSystemUIFont;
+          color: #EEEEEE;
+        }
+
+        .p2 {
+          margin-top: 8px;
+          font-size: 12px;
+          font-family: AppleSystemUIFont;
+          color: #817A7A;
+        }
+      }
+
+      &_btn {
+        width: 151px;
+        height: 40px;
+        background: #CBFB5E;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: AppleSystemUIFont;
+        color: #20242F;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+    }
+
+    &_main {
+      width: 100%;
+      box-sizing: border-box;
+      padding-top: 20px;
+      &_li {
+        display: flex;
+        width: 100%;
+        padding-left: 24px;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: flex-start;
+        margin-top: 14px;
+      }
+
+      &_left {
+        display: flex;
+        align-items: center;
+
+        .sort {
+          font-size: 14px;
+          font-family: AppleSystemUIFont;
+          color: #FFFFFF;
+          line-height: 18px;
+        }
+
+        .img {
+          width: 32px;
+          height: 32px;
+          border-radius: 3px;
+          overflow: hidden;
+          margin-left: 20px;
+
+          img {
+            width: 100%;
+          }
+        }
+        .img48{
+          width: 48px;
+          height: 48px;
+          border-radius: 3px;
+          overflow: hidden;
+          margin-left: 16px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+
+      &_right {
+        width: 266px;
+        padding-right: 24px;
+        box-sizing: border-box;
+        padding-bottom: 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        .flex{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .content {
+          .p1 {
+            font-size: 16px;
+            font-family: AppleSystemUIFont;
+            color: #EEEEEE;
+          }
+
+          .p2 {
+            margin-top: 8px;
+            font-size: 12px;
+            font-family: AppleSystemUIFont;
+            color: #71737B;
+          }
+        }
+      }
+      &_right247{
+        width: 247px;
+        padding-bottom: 32px;
+        .flex{
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

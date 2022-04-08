@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "136387",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "f0304",
+      "unicode_decimal": 983812
+    },
+    {
+      "icon_id": "159969",
+      "name": "more",
+      "font_class": "gengduo",
+      "unicode": "f0170",
+      "unicode_decimal": 983408
+    },
+    {
+      "icon_id": "162882",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "f018f",
+      "unicode_decimal": 983439
+    },
+    {
+      "icon_id": "765290",
+      "name": "我的",
+      "font_class": "shouye",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "851712",
+      "name": "箭头_左",
+      "font_class": "jiantouzuo",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "2674928",
+      "name": "箭头 右",
+      "font_class": "jiantouyou",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "5849201",
+      "name": "专辑",
+      "font_class": "zhuanji",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10496940",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11372782",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e8c7",
+      "unicode_decimal": 59591
+    },
+    {
+      "icon_id": "12025550",
+      "name": "close",
+      "font_class": "close1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12473809",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "12708826",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "26727757",
+      "name": "音乐播放列表，音乐",
+      "font_class": "a-yinlebofangliebiaoyinle",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    }
+  ]
+}
